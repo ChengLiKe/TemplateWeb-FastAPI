@@ -55,8 +55,7 @@ from fastapi.openapi.docs import (
     get_swagger_ui_oauth2_redirect_html,
 )
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import RedirectResponse, HTMLResponse
-from jinja2 import Environment, FileSystemLoader
+from fastapi.responses import HTMLResponse
 
 app.mount("/static", StaticFiles(directory="fastapi-app/static"), name="static")
 
@@ -97,29 +96,6 @@ async def read_readme():
     # 将 Markdown 转换为 HTML
     html_content = markdown.markdown(md_content)
     return HTMLResponse(content=html_content)
-
-
-@app.get("/", include_in_schema=False)
-async def root():
-    return RedirectResponse(url="/static/templates/index.html")
-
-
-@app.get("/pdf", include_in_schema=False)
-async def pdfs():
-    """
-    列出 pdf_directory 目录下的所有 PDF 文件，并生成 HTML 页面
-    """
-    # 配置 Jinja2 模板引擎
-    env = Environment(loader=FileSystemLoader("fastapi-app/static/templates"))
-    try:
-        files = os.listdir("fastapi-app/static/templates/pdf")
-        pdf_files = [file for file in files if file.endswith(".pdf")]
-        print(pdf_files)
-        template = env.get_template("pdf.html")
-        html_content = template.render(pdf_files=pdf_files)
-        return HTMLResponse(content=html_content)
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
 
 
 # ----------------------------------------------------------------------------
