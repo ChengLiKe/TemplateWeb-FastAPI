@@ -3,8 +3,6 @@
 import logging
 import os
 from dotenv import load_dotenv
-import webbrowser
-from threading import Timer
 
 # 加载 .env 文件
 load_dotenv()
@@ -21,15 +19,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def open_browser():
-    webbrowser.open(f"http://{HOST}:{PORT}/")
-
-
 async def startup_event():
     logger.info("应用已启动.")
     logger.info(f"prometheus running on http://{HOST}:{PORT}/metrics")
-    # 延迟一小会儿打开浏览器，以确保uvicorn服务器已启动
-    Timer(1.5, open_browser).start()
 
 
 async def shutdown_event():
