@@ -1,0 +1,840 @@
+2024-08-04 22:03:50 - app.main - [INFO] - main.py - line:78 - log_requests_middleware() - GET /HelloWord - Duration: 0.00 seconds
+2024-08-04 22:04:18 - app.main - [INFO] - main.py - line:78 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-04 22:04:18 - app.main - [INFO] - main.py - line:78 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-04 22:04:18 - app.main - [INFO] - main.py - line:78 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-04 22:04:33 - app.main - [INFO] - main.py - line:78 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-04 22:04:34 - app.main - [INFO] - main.py - line:78 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-04 22:04:37 - app.main - [INFO] - main.py - line:78 - log_requests_middleware() - GET /HelloWord - Duration: 0.00 seconds
+2024-08-04 22:04:38 - app.main - [INFO] - main.py - line:78 - log_requests_middleware() - GET /HelloWord - Duration: 0.00 seconds
+2024-08-04 22:17:01 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /metrics - Duration: 0.00 seconds
+2024-08-04 22:20:58 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-04 22:20:58 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-04 22:21:01 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /metrics - Duration: 0.00 seconds
+2024-08-04 22:43:28 - app.main - [ERROR] - main.py - line:157 - log_requests_middleware() - http://127.0.0.1:8000/ - Duration: 0.00 seconds
+2024-08-04 22:43:35 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-04 22:43:35 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-04 22:44:02 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-04 22:44:03 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-04 22:44:11 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /example/get/HelloWorld - Duration: 0.00 seconds
+2024-08-04 22:45:00 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /README - Duration: 0.01 seconds
+2024-08-05 11:00:40 - app.main - [ERROR] - main.py - line:157 - log_requests_middleware() - http://127.0.0.1:8000/ - Duration: 0.00 seconds
+2024-08-05 11:00:44 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-05 11:00:44 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-05 11:44:11 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-05 11:44:12 - app.main - [INFO] - main.py - line:159 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-05 12:21:05 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/ - Duration: 0.01 seconds
+2024-08-05 12:22:23 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 12:22:23 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 12:22:23 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 12:22:27 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 12:22:27 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 12:22:55 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 12:22:57 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 12:22:57 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 12:31:05 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 12:31:12 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 12:31:12 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 12:33:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 12:33:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 12:33:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 12:33:53 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 12:41:15 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 12:41:15 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 12:43:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 12:43:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 12:44:04 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 12:44:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 12:44:58 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.01 seconds
+2024-08-05 12:46:35 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 12:50:06 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 12:54:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 13:01:58 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 13:01:58 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.04 seconds
+2024-08-05 13:01:58 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.04 seconds
+2024-08-05 13:01:58 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/lightbox2/css/lightbox.css - Duration: 0.04 seconds
+2024-08-05 13:01:58 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/css/fontastic.css - Duration: 0.04 seconds
+2024-08-05 13:01:58 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/css/style.default.css - Duration: 0.05 seconds
+2024-08-05 13:01:58 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/css/custom.css - Duration: 0.05 seconds
+2024-08-05 13:01:58 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/jquery/jquery.min.js - Duration: 0.03 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/logo.svg - Duration: 0.02 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/illustration-hero.svg - Duration: 0.02 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/monitor.svg - Duration: 0.03 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/illustration-1.svg - Duration: 0.03 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/target.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/lightbox2/js/lightbox.js - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/js/front.js - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/chat.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/idea.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/coffee-cup.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/pen.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-1.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-2.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-3.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-4.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-5.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-6.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/illustration-2.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-2.jpg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-1.jpg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-3.jpg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-4.jpg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-5.jpg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/logo-footer.svg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-6.jpg - Duration: 0.04 seconds
+2024-08-05 13:01:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/favicon.png - Duration: 0.01 seconds
+2024-08-05 13:06:02 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.03 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.04 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.04 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/css/fontastic.css - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/css/style.default.css - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/css/custom.css - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/jquery/jquery.min.js - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/logo.svg - Duration: 0.04 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/illustration-hero.svg - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/illustration-1.svg - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/monitor.svg - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/target.svg - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.08 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/js/front.js - Duration: 0.06 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/chat.svg - Duration: 0.06 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.06 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.07 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/idea.svg - Duration: 0.06 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/coffee-cup.svg - Duration: 0.06 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/pen.svg - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-1.svg - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-2.svg - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-3.svg - Duration: 0.05 seconds
+2024-08-05 13:06:02 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-4.svg - Duration: 0.06 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-5.svg - Duration: 0.06 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-6.svg - Duration: 0.06 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/illustration-2.svg - Duration: 0.05 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-1.jpg - Duration: 0.05 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-2.jpg - Duration: 0.06 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-3.jpg - Duration: 0.06 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-4.jpg - Duration: 0.05 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-5.jpg - Duration: 0.04 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-6.jpg - Duration: 0.03 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/logo-footer.svg - Duration: 0.03 seconds
+2024-08-05 13:06:03 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/favicon.png - Duration: 0.00 seconds
+2024-08-05 13:06:37 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-3.jpg - Duration: 0.01 seconds
+2024-08-05 13:06:51 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/ - Duration: 0.01 seconds
+2024-08-05 13:06:55 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates - Duration: 0.01 seconds
+2024-08-05 13:07:15 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates - Duration: 0.01 seconds
+2024-08-05 13:07:30 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.03 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/css/fontastic.css - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/css/style.default.css - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/css/custom.css - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/jquery/jquery.min.js - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/logo.svg - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/illustration-hero.svg - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/illustration-1.svg - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/monitor.svg - Duration: 0.05 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/target.svg - Duration: 0.05 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.05 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/js/front.js - Duration: 0.05 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/chat.svg - Duration: 0.05 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.05 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.05 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/idea.svg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/coffee-cup.svg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/pen.svg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-1.svg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-2.svg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-3.svg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-4.svg - Duration: 0.07 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-5.svg - Duration: 0.07 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/client-6.svg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-1.jpg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/illustration-2.svg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-3.jpg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-2.jpg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-4.jpg - Duration: 0.06 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-5.jpg - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/logo-footer.svg - Duration: 0.04 seconds
+2024-08-05 13:07:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/img/portfolio-6.jpg - Duration: 0.04 seconds
+2024-08-05 13:10:20 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 13:10:20 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/fontastic.css - Duration: 0.15 seconds
+2024-08-05 13:10:20 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.16 seconds
+2024-08-05 13:10:20 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.17 seconds
+2024-08-05 13:10:20 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/style.default.css - Duration: 0.15 seconds
+2024-08-05 13:10:20 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.17 seconds
+2024-08-05 13:10:20 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/custom.css - Duration: 0.15 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery/jquery.min.js - Duration: 0.06 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-hero.svg - Duration: 0.06 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/monitor.svg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-1.svg - Duration: 0.06 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/target.svg - Duration: 0.06 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/chat.svg - Duration: 0.04 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/js/front.js - Duration: 0.04 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.06 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/hero-bg.svg - Duration: 0.08 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-1.svg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/pen.svg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-2.svg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-3.svg - Duration: 0.03 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/idea.svg - Duration: 0.06 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/coffee-cup.svg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-4.svg - Duration: 0.04 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-2.svg - Duration: 0.04 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-2.jpg - Duration: 0.03 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-5.svg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-1.jpg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-6.svg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-4.jpg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo-footer.svg - Duration: 0.04 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-6.jpg - Duration: 0.04 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-3.jpg - Duration: 0.05 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/prev.png - Duration: 0.04 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-5.jpg - Duration: 0.06 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/loading.gif - Duration: 0.03 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/next.png - Duration: 0.04 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/fonts/fontawesome-webfont.woff2 - Duration: 0.04 seconds
+2024-08-05 13:10:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/close.png - Duration: 0.04 seconds
+2024-08-05 13:10:58 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates - Duration: 0.01 seconds
+2024-08-05 13:10:58 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/ - Duration: 0.01 seconds
+2024-08-05 13:10:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/ - Duration: 0.01 seconds
+2024-08-05 13:11:14 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.03 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/css/fontastic.css - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/css/style.default.css - Duration: 0.04 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.06 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.06 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/css/custom.css - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/vendor/jquery/jquery.min.js - Duration: 0.06 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/illustration-hero.svg - Duration: 0.04 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/logo.svg - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/illustration-1.svg - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/monitor.svg - Duration: 0.06 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/target.svg - Duration: 0.06 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.06 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.06 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/js/front.js - Duration: 0.06 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/coffee-cup.svg - Duration: 0.04 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/idea.svg - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/chat.svg - Duration: 0.08 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.08 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/pen.svg - Duration: 0.06 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/client-5.svg - Duration: 0.02 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/client-3.svg - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/client-2.svg - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/client-4.svg - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/client-1.svg - Duration: 0.07 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/portfolio-1.jpg - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/illustration-2.svg - Duration: 0.06 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/portfolio-4.jpg - Duration: 0.04 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/portfolio-2.jpg - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/portfolio-3.jpg - Duration: 0.05 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/client-6.svg - Duration: 0.08 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/logo-footer.svg - Duration: 0.03 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/portfolio-6.jpg - Duration: 0.03 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/portfolio-5.jpg - Duration: 0.03 seconds
+2024-08-05 13:11:14 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/app/templates/img/favicon.png - Duration: 0.01 seconds
+2024-08-05 13:12:05 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.11 seconds
+2024-08-05 13:12:12 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.02 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.03 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.04 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/lightbox2/css/lightbox.css - Duration: 0.04 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/css/fontastic.css - Duration: 0.04 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/css/style.default.css - Duration: 0.04 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/css/custom.css - Duration: 0.04 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/jquery/jquery.min.js - Duration: 0.04 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/logo.svg - Duration: 0.04 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/illustration-hero.svg - Duration: 0.04 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/illustration-1.svg - Duration: 0.05 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/monitor.svg - Duration: 0.05 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/target.svg - Duration: 0.05 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.05 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/chat.svg - Duration: 0.05 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/idea.svg - Duration: 0.05 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.04 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/vendor/lightbox2/js/lightbox.js - Duration: 0.04 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/js/front.js - Duration: 0.05 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/pen.svg - Duration: 0.05 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/coffee-cup.svg - Duration: 0.05 seconds
+2024-08-05 13:12:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-1.svg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-2.svg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-3.svg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-4.svg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-6.svg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/client-5.svg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/illustration-2.svg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-1.jpg - Duration: 0.06 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-2.jpg - Duration: 0.06 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-3.jpg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-5.jpg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-4.jpg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/portfolio-6.jpg - Duration: 0.05 seconds
+2024-08-05 13:12:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/img/logo-footer.svg - Duration: 0.04 seconds
+2024-08-05 13:13:37 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/ - Duration: 0.01 seconds
+2024-08-05 13:13:38 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/index.html - Duration: 0.11 seconds
+2024-08-05 13:13:42 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/ - Duration: 0.01 seconds
+2024-08-05 13:15:13 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:15:26 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/text.html - Duration: 0.01 seconds
+2024-08-05 13:15:26 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/blog1.jpg - Duration: 0.01 seconds
+2024-08-05 13:15:29 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:17:46 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/index.html - Duration: 0.13 seconds
+2024-08-05 13:18:13 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/index.html - Duration: 0.11 seconds
+2024-08-05 13:18:57 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/contact.html - Duration: 0.11 seconds
+2024-08-05 13:18:57 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/placeholder.svg - Duration: 0.01 seconds
+2024-08-05 13:18:57 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/technology.svg - Duration: 0.01 seconds
+2024-08-05 13:18:57 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/multimedia.svg - Duration: 0.01 seconds
+2024-08-05 13:19:04 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:19:22 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/faq.html - Duration: 0.01 seconds
+2024-08-05 13:19:22 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/fonts/appton.woff - Duration: 0.01 seconds
+2024-08-05 13:22:24 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/contact.html - Duration: 0.11 seconds
+2024-08-05 13:22:28 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:22:30 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/0;url=/docs - Duration: 0.01 seconds
+2024-08-05 13:24:48 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/0;url=/docs - Duration: 0.01 seconds
+2024-08-05 13:24:58 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.11 seconds
+2024-08-05 13:25:00 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 13:25:00 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 13:27:05 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.12 seconds
+2024-08-05 13:27:09 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 13:27:09 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.02 seconds
+2024-08-05 13:27:13 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /redoc - Duration: 0.01 seconds
+2024-08-05 13:27:13 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /static/redoc.standalone.js - Duration: 0.01 seconds
+2024-08-05 13:27:13 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 13:27:47 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:29:18 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /metrics - Duration: 0.02 seconds
+2024-08-05 13:29:29 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.01 seconds
+2024-08-05 13:29:29 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.02 seconds
+2024-08-05 13:33:04 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:35:34 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:35:35 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 13:35:36 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 13:36:29 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:36:33 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 13:36:33 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 13:37:11 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:37:22 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:37:54 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:38:07 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:38:13 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 13:38:13 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 13:38:15 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /redoc - Duration: 0.01 seconds
+2024-08-05 13:38:15 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 13:38:21 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 13:38:22 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 13:38:28 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /README - Duration: 0.08 seconds
+2024-08-05 13:46:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.01 seconds
+2024-08-05 13:46:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.11 seconds
+2024-08-05 13:47:29 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.01 seconds
+2024-08-05 13:47:29 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.12 seconds
+2024-08-05 13:48:24 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.01 seconds
+2024-08-05 13:48:25 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.14 seconds
+2024-08-05 13:48:35 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 13:48:35 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 13:52:59 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:53:34 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.01 seconds
+2024-08-05 13:53:53 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/bootstrap/css/bootstrap.min.css.map - Duration: 0.02 seconds
+2024-08-05 13:53:53 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js.map - Duration: 0.01 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.11 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.08 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.07 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/fontastic.css - Duration: 0.07 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.08 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/style.default.css - Duration: 0.09 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/custom.css - Duration: 0.09 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery/jquery.min.js - Duration: 0.15 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.15 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/fonts/fontawesome-webfont.woff2 - Duration: 0.13 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-1.svg - Duration: 0.12 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-hero.svg - Duration: 0.11 seconds
+2024-08-05 13:54:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/monitor.svg - Duration: 0.09 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/hero-bg.svg - Duration: 0.11 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/target.svg - Duration: 0.10 seconds
+2024-08-05 13:54:40 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/bootstrap/css/bootstrap.min.css.map - Duration: 0.12 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.09 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.08 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.09 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/js/front.js - Duration: 0.11 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/idea.svg - Duration: 0.10 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/chat.svg - Duration: 0.11 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/pen.svg - Duration: 0.09 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/coffee-cup.svg - Duration: 0.09 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-1.svg - Duration: 0.08 seconds
+2024-08-05 13:54:40 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js.map - Duration: 0.14 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-2.svg - Duration: 0.14 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-3.svg - Duration: 0.13 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-4.svg - Duration: 0.12 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-6.svg - Duration: 0.10 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-5.svg - Duration: 0.12 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-2.svg - Duration: 0.16 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-1.jpg - Duration: 0.11 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-2.jpg - Duration: 0.12 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-3.jpg - Duration: 0.10 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-5.jpg - Duration: 0.12 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-4.jpg - Duration: 0.12 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-6.jpg - Duration: 0.14 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo-footer.svg - Duration: 0.12 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/prev.png - Duration: 0.11 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/next.png - Duration: 0.11 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/loading.gif - Duration: 0.13 seconds
+2024-08-05 13:54:40 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/close.png - Duration: 0.11 seconds
+2024-08-05 13:54:49 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/ - Duration: 0.01 seconds
+2024-08-05 13:56:34 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 13:56:34 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-05 13:56:51 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-05 13:56:53 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-05 13:56:54 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/fonts/appton.woff - Duration: 0.01 seconds
+2024-08-05 13:56:55 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-05 13:56:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/bootstrap/css/bootstrap.min.css.map - Duration: 0.02 seconds
+2024-08-05 13:56:59 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js.map - Duration: 0.03 seconds
+2024-08-05 13:57:04 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-05 13:57:15 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-05 13:57:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 13:57:39 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 13:59:02 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 13:59:02 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 14:02:14 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 14:02:14 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 14:02:20 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://127.0.0.1:8000/doc.html - Duration: 0.01 seconds
+2024-08-05 14:13:50 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 14:13:50 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-05 14:14:57 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.01 seconds
+2024-08-05 14:14:58 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-05 14:15:12 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.01 seconds
+2024-08-05 14:15:12 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.12 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/style.default.css - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/fontastic.css - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/custom.css - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-hero.svg - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-1.svg - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/target.svg - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/monitor.svg - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery/jquery.min.js - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/js/front.js - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/idea.svg - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/chat.svg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/coffee-cup.svg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-1.svg - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/pen.svg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-3.svg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-2.svg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-4.svg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-2.svg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-5.svg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-6.svg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-1.jpg - Duration: 0.03 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-2.jpg - Duration: 0.03 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-3.jpg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-4.jpg - Duration: 0.02 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-5.jpg - Duration: 0.03 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-6.jpg - Duration: 0.03 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo-footer.svg - Duration: 0.03 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/hero-bg.svg - Duration: 0.03 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/fonts/fontawesome-webfont.woff2 - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/prev.png - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/next.png - Duration: 0.01 seconds
+2024-08-07 16:53:19 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/close.png - Duration: 0.01 seconds
+2024-08-07 16:53:20 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/loading.gif - Duration: 0.02 seconds
+2024-08-07 16:53:20 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/favicon.png - Duration: 0.00 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.10 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/fontastic.css - Duration: 0.00 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/custom.css - Duration: 0.00 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/style.default.css - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-hero.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-1.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/monitor.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery/jquery.min.js - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/target.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/chat.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/js/front.js - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/idea.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/coffee-cup.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/pen.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-1.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-3.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-2.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-4.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-6.svg - Duration: 0.00 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-5.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-2.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-1.jpg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-2.jpg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-3.jpg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-5.jpg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-4.jpg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-6.jpg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo-footer.svg - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/hero-bg.svg - Duration: 0.00 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/fonts/fontawesome-webfont.woff2 - Duration: 0.00 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/next.png - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/loading.gif - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/prev.png - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/close.png - Duration: 0.01 seconds
+2024-08-07 16:54:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/favicon.png - Duration: 0.00 seconds
+2024-08-07 16:55:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 16:55:16 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.00 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.00 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/fontastic.css - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/custom.css - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/style.default.css - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-hero.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/monitor.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/target.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery/jquery.min.js - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-1.svg - Duration: 0.02 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.00 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/js/front.js - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/pen.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/chat.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/coffee-cup.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/idea.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-1.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-4.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-2.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-3.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-6.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-2.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-5.svg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-1.jpg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-3.jpg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-2.jpg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-4.jpg - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-5.jpg - Duration: 0.00 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo-footer.svg - Duration: 0.00 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-6.jpg - Duration: 0.00 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/hero-bg.svg - Duration: 0.00 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/fonts/fontawesome-webfont.woff2 - Duration: 0.00 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/next.png - Duration: 0.00 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/close.png - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/prev.png - Duration: 0.01 seconds
+2024-08-07 16:55:17 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/loading.gif - Duration: 0.01 seconds
+2024-08-07 16:55:18 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/favicon.png - Duration: 0.00 seconds
+2024-08-07 16:55:29 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-07 16:55:29 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /static/swagger-ui.css - Duration: 0.00 seconds
+2024-08-07 16:55:29 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /static/swagger-ui-bundle.js - Duration: 0.01 seconds
+2024-08-07 16:55:29 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-07 16:55:36 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /example/get/HelloWorld - Duration: 0.00 seconds
+2024-08-07 16:55:57 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /redoc - Duration: 0.00 seconds
+2024-08-07 16:55:57 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /static/redoc.standalone.js - Duration: 0.00 seconds
+2024-08-07 16:55:58 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-07 16:55:59 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.12 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.00 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/fontastic.css - Duration: 0.02 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/style.default.css - Duration: 0.02 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/css/custom.css - Duration: 0.02 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery/jquery.min.js - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo.svg - Duration: 0.02 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-1.svg - Duration: 0.02 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-hero.svg - Duration: 0.02 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/monitor.svg - Duration: 0.02 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/target.svg - Duration: 0.02 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/js/front.js - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/chat.svg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/idea.svg - Duration: 0.00 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/coffee-cup.svg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/pen.svg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-2.svg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-1.svg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-3.svg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/illustration-2.svg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-5.svg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-4.svg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/client-6.svg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-1.jpg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-2.jpg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-3.jpg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-4.jpg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-5.jpg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/portfolio-6.jpg - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/logo-footer.svg - Duration: 0.00 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/hero-bg.svg - Duration: 0.00 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/font-awesome/fonts/fontawesome-webfont.woff2 - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/prev.png - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/next.png - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/loading.gif - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/vendor/lightbox2/images/close.png - Duration: 0.01 seconds
+2024-08-07 16:59:37 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/favicon.png - Duration: 0.00 seconds
+2024-08-07 16:59:56 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/contact.html - Duration: 0.00 seconds
+2024-08-07 16:59:56 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/placeholder.svg - Duration: 0.01 seconds
+2024-08-07 16:59:56 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/technology.svg - Duration: 0.01 seconds
+2024-08-07 16:59:56 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/img/multimedia.svg - Duration: 0.01 seconds
+2024-08-07 17:00:06 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/faq.html - Duration: 0.00 seconds
+2024-08-07 17:00:06 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/fonts/appton.woff - Duration: 0.00 seconds
+2024-08-07 17:03:47 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/faq.html - Duration: 0.00 seconds
+2024-08-07 17:04:25 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/faq.html - Duration: 0.00 seconds
+2024-08-07 17:04:42 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/faq.html - Duration: 0.00 seconds
+2024-08-07 17:05:10 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-07 17:05:10 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /static/swagger-ui.css - Duration: 0.01 seconds
+2024-08-07 17:05:10 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /static/swagger-ui-bundle.js - Duration: 0.00 seconds
+2024-08-07 17:05:10 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-07 17:05:12 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /README - Duration: 0.01 seconds
+2024-08-07 17:05:12 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://192.168.31.129:8000/favicon.ico - Duration: 0.00 seconds
+2024-08-07 17:05:32 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:05:34 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-07 17:05:34 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-07 17:05:35 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /README - Duration: 0.01 seconds
+2024-08-07 17:05:36 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://192.168.31.129:8000/favicon.ico - Duration: 0.00 seconds
+2024-08-07 17:05:51 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /README - Duration: 0.01 seconds
+2024-08-07 17:15:23 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/index.html - Duration: 0.00 seconds
+2024-08-07 17:15:24 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/pdf.html - Duration: 0.00 seconds
+2024-08-07 17:15:47 - app.main - [ERROR] - main.py - line:167 - log_requests_middleware() - http://192.168.31.129:8000/app/templates/pdf - Duration: 0.00 seconds
+2024-08-07 17:15:56 - app.main - [INFO] - main.py - line:169 - log_requests_middleware() - GET /app/templates/pdf/时间简史.pdf - Duration: 0.00 seconds
+2024-08-07 17:26:19 - app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:26:19 - app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET / - Duration: 0.01 seconds
+2024-08-07 17:26:19 - app.main - [ERROR] - main.py - line:171 - log_requests_middleware() - http://192.168.31.129:8000/app/templates/index.html - Duration: 0.00 seconds
+2024-08-07 17:26:19 - app.main - [ERROR] - main.py - line:171 - log_requests_middleware() - http://192.168.31.129:8000/app/templates/index.html - Duration: 0.00 seconds
+2024-08-07 17:28:29 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:28:29 - app.main - [ERROR] - main.py - line:177 - log_requests_middleware() - http://192.168.31.129:8000/app/static/templates/index.html - Duration: 0.00 seconds
+2024-08-07 17:29:01 - app.main - [ERROR] - main.py - line:177 - log_requests_middleware() - http://192.168.31.129:8000/app/static - Duration: 0.00 seconds
+2024-08-07 17:29:53 - app.main - [ERROR] - main.py - line:177 - log_requests_middleware() - http://192.168.31.129:8000/app/static/templates/pdf/时间简史.pdf - Duration: 0.00 seconds
+2024-08-07 17:30:58 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:30:58 - app.main - [ERROR] - main.py - line:178 - log_requests_middleware() - http://192.168.31.129:8000/app/static/templates/index.html - Duration: 0.00 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/index.html - Duration: 0.11 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/css/style.default.css - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/css/fontastic.css - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/css/custom.css - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/illustration-hero.svg - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/illustration-1.svg - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/monitor.svg - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/target.svg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/jquery/jquery.min.js - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.03 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.03 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/js/front.js - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/chat.svg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/idea.svg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/coffee-cup.svg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/pen.svg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/client-1.svg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/client-2.svg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/client-3.svg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/client-4.svg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/client-5.svg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/hero-bg.svg - Duration: 0.03 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/client-6.svg - Duration: 0.03 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/illustration-2.svg - Duration: 0.03 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/portfolio-1.jpg - Duration: 0.03 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/portfolio-2.jpg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/portfolio-3.jpg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/portfolio-4.jpg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/portfolio-5.jpg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/portfolio-6.jpg - Duration: 0.02 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/logo-footer.svg - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/font-awesome/fonts/fontawesome-webfont.woff2 - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/lightbox2/images/next.png - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/lightbox2/images/prev.png - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/lightbox2/images/close.png - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/vendor/lightbox2/images/loading.gif - Duration: 0.01 seconds
+2024-08-07 17:31:28 - app.main - [INFO] - main.py - line:180 - log_requests_middleware() - GET /app/static/templates/img/favicon.png - Duration: 0.00 seconds
+2024-08-07 17:32:58 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:32:58 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/index.html - Duration: 0.11 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.01 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.01 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/css/fontastic.css - Duration: 0.01 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.01 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/css/style.default.css - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/css/custom.css - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/illustration-hero.svg - Duration: 0.00 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/illustration-1.svg - Duration: 0.00 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/monitor.svg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/jquery/jquery.min.js - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/target.svg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.03 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/chat.svg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/js/front.js - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/idea.svg - Duration: 0.03 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/coffee-cup.svg - Duration: 0.03 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/pen.svg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/client-1.svg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/client-2.svg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/client-3.svg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/hero-bg.svg - Duration: 0.03 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/client-4.svg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/client-5.svg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/client-6.svg - Duration: 0.03 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/illustration-2.svg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/portfolio-1.jpg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/portfolio-2.jpg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/portfolio-4.jpg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/portfolio-3.jpg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/portfolio-5.jpg - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/portfolio-6.jpg - Duration: 0.01 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/logo-footer.svg - Duration: 0.01 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/font-awesome/fonts/fontawesome-webfont.woff2 - Duration: 0.01 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/images/prev.png - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/images/loading.gif - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/images/close.png - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/images/next.png - Duration: 0.02 seconds
+2024-08-07 17:32:59 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/img/favicon.png - Duration: 0.00 seconds
+2024-08-07 17:33:08 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-07 17:33:08 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-07 17:33:10 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/faq.html - Duration: 0.00 seconds
+2024-08-07 17:33:10 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/templates/fonts/appton.woff - Duration: 0.00 seconds
+2024-08-07 17:33:12 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /redoc - Duration: 0.00 seconds
+2024-08-07 17:33:12 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /static/redoc.standalone.js - Duration: 0.00 seconds
+2024-08-07 17:33:13 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-07 17:33:15 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-07 17:33:15 - app.main - [INFO] - main.py - line:179 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-07 17:38:24 - app.main - [INFO] - main.py - line:191 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:38:24 - app.main - [INFO] - main.py - line:191 - log_requests_middleware() - GET /static/templates/index.html - Duration: 0.11 seconds
+2024-08-07 17:38:24 - app.main - [INFO] - main.py - line:191 - log_requests_middleware() - GET /static/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.00 seconds
+2024-08-07 17:38:26 - app.main - [ERROR] - main.py - line:189 - log_requests_middleware() - http://192.168.31.129:8000/pdf - Duration: 0.00 seconds
+2024-08-07 17:39:10 - app.main - [INFO] - main.py - line:191 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:39:10 - app.main - [INFO] - main.py - line:191 - log_requests_middleware() - GET /static/templates/index.html - Duration: 0.11 seconds
+2024-08-07 17:39:12 - app.main - [INFO] - main.py - line:191 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:44:49 - app.main - [INFO] - main.py - line:196 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:44:50 - app.main - [INFO] - main.py - line:196 - log_requests_middleware() - GET /static/templates/index.html - Duration: 0.12 seconds
+2024-08-07 17:44:50 - app.main - [INFO] - main.py - line:196 - log_requests_middleware() - GET /static/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.00 seconds
+2024-08-07 17:44:51 - app.main - [INFO] - main.py - line:196 - log_requests_middleware() - GET /static/templates/pdf.html - Duration: 0.00 seconds
+2024-08-07 17:44:53 - app.main - [ERROR] - main.py - line:194 - log_requests_middleware() - http://192.168.31.129:8000/pdfs/{{ pdf }} - Duration: 0.00 seconds
+2024-08-07 17:46:42 - app.main - [INFO] - main.py - line:196 - log_requests_middleware() - GET /static/templates/pdf.html - Duration: 0.00 seconds
+2024-08-07 17:46:43 - app.main - [ERROR] - main.py - line:194 - log_requests_middleware() - http://192.168.31.129:8000/static/templates/pdf/{{ pdf }} - Duration: 0.00 seconds
+2024-08-07 17:46:58 - app.main - [INFO] - main.py - line:196 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:46:58 - app.main - [INFO] - main.py - line:196 - log_requests_middleware() - GET /static/templates/index.html - Duration: 0.11 seconds
+2024-08-07 17:46:58 - app.main - [INFO] - main.py - line:196 - log_requests_middleware() - GET /static/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.00 seconds
+2024-08-07 17:47:00 - app.main - [INFO] - main.py - line:196 - log_requests_middleware() - GET /static/templates/pdf.html - Duration: 0.00 seconds
+2024-08-07 17:47:01 - app.main - [ERROR] - main.py - line:194 - log_requests_middleware() - http://192.168.31.129:8000/static/templates/pdf/{{ pdf }}.pdf - Duration: 0.00 seconds
+2024-08-07 17:47:57 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:47:58 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/index.html - Duration: 0.11 seconds
+2024-08-07 17:48:00 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/pdf.html - Duration: 0.00 seconds
+2024-08-07 17:48:25 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/index.html - Duration: 0.00 seconds
+2024-08-07 17:48:27 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.01 seconds
+2024-08-07 17:48:52 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:48:55 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:49:22 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:49:23 - app.main - [ERROR] - main.py - line:195 - log_requests_middleware() - http://192.168.31.129:8000/pdfs/时间简史.pdf - Duration: 0.00 seconds
+2024-08-07 17:49:48 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:49:49 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/pdf/时间简史.pdf - Duration: 0.00 seconds
+2024-08-07 17:50:57 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:51:11 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.01 seconds
+2024-08-07 17:53:44 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:54:41 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.01 seconds
+2024-08-07 17:54:42 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:54:52 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:55:09 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.01 seconds
+2024-08-07 17:57:19 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:57:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:58:04 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.00 seconds
+2024-08-07 17:58:07 - app.main - [ERROR] - main.py - line:195 - log_requests_middleware() - http://192.168.31.129:8000/static/templates/pdf/Java多线程编程实战指南+设计模式篇@www.java1234.com.pdf - Duration: 0.00 seconds
+2024-08-07 17:58:19 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 17:58:19 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/index.html - Duration: 0.11 seconds
+2024-08-07 17:58:19 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.00 seconds
+2024-08-07 17:58:22 - app.main - [ERROR] - main.py - line:195 - log_requests_middleware() - http://192.168.31.129:8000/static/templates/pdf/Java多线程编程实战指南+设计模式篇@www.java1234.com.pdf - Duration: 0.00 seconds
+2024-08-07 17:58:32 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/pdf/Java反射机制总结.pdf - Duration: 0.00 seconds
+2024-08-07 17:58:35 - app.main - [ERROR] - main.py - line:195 - log_requests_middleware() - http://192.168.31.129:8000/static/templates/pdf/Java多线程编程实战指南+设计模式篇@www.java1234.com.pdf - Duration: 0.00 seconds
+2024-08-07 18:00:36 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/pdf/浪潮之巅.pdf - Duration: 0.00 seconds
+2024-08-07 18:01:01 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET / - Duration: 0.01 seconds
+2024-08-07 18:01:01 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/index.html - Duration: 0.00 seconds
+2024-08-07 18:01:03 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.01 seconds
+2024-08-07 18:01:51 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /metrics - Duration: 0.00 seconds
+2024-08-07 18:01:53 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-07 18:01:54 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.00 seconds
+2024-08-07 18:01:55 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.01 seconds
+2024-08-07 18:01:57 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/pdf/Redis设计与实现.pdf - Duration: 0.00 seconds
+2024-08-11 14:48:30 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/index.html - Duration: 0.08 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET / - Duration: 0.00 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/bootstrap/css/bootstrap.min.css - Duration: 0.04 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/css/fontastic.css - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/css/custom.css - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/css/style.default.css - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/css/lightbox.css - Duration: 0.02 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/font-awesome/css/font-awesome.min.css - Duration: 0.05 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/logo.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/illustration-hero.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/illustration-1.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/jquery/jquery.min.js - Duration: 0.02 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/monitor.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/target.svg - Duration: 0.05 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/jquery.cookie/jquery.cookie.js - Duration: 0.04 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/js/lightbox.js - Duration: 0.04 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/bootstrap/js/bootstrap.bundle.min.js - Duration: 0.05 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/js/front.js - Duration: 0.04 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/chat.svg - Duration: 0.03 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/idea.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/coffee-cup.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/pen.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/client-1.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/client-2.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/client-3.svg - Duration: 0.00 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/client-4.svg - Duration: 0.00 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/client-5.svg - Duration: 0.00 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/illustration-2.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/client-6.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/portfolio-1.jpg - Duration: 0.00 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/portfolio-2.jpg - Duration: 0.00 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/hero-bg.svg - Duration: 0.00 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/portfolio-3.jpg - Duration: 0.00 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/portfolio-4.jpg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/portfolio-5.jpg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/portfolio-6.jpg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/logo-footer.svg - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/font-awesome/fonts/fontawesome-webfont.woff2 - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/images/close.png - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/images/next.png - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/images/loading.gif - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/vendor/lightbox2/images/prev.png - Duration: 0.01 seconds
+2024-08-11 14:48:31 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/favicon.png - Duration: 0.00 seconds
+2024-08-11 14:48:34 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.01 seconds
+2024-08-11 14:48:34 - app.main - [ERROR] - main.py - line:195 - log_requests_middleware() - http://localhost:8002/favicon.ico - Duration: 0.00 seconds
+2024-08-11 14:48:36 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/pdf/提问的智慧.pdf - Duration: 0.00 seconds
+2024-08-11 14:48:49 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-11 14:48:49 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/swagger-ui.css - Duration: 0.00 seconds
+2024-08-11 14:48:49 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/swagger-ui-bundle.js - Duration: 0.00 seconds
+2024-08-11 14:48:49 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-11 14:50:37 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /pdf - Duration: 0.01 seconds
+2024-08-11 14:50:52 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/text.html - Duration: 0.00 seconds
+2024-08-11 14:50:52 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/blog1.jpg - Duration: 0.00 seconds
+2024-08-11 14:51:03 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/contact.html - Duration: 0.00 seconds
+2024-08-11 14:51:03 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/placeholder.svg - Duration: 0.00 seconds
+2024-08-11 14:51:03 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/technology.svg - Duration: 0.00 seconds
+2024-08-11 14:51:03 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/img/multimedia.svg - Duration: 0.00 seconds
+2024-08-11 14:51:04 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/faq.html - Duration: 0.00 seconds
+2024-08-11 14:51:04 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/templates/fonts/appton.woff - Duration: 0.01 seconds
+2024-08-11 14:51:12 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-08-11 14:51:12 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-08-11 14:51:16 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /redoc - Duration: 0.00 seconds
+2024-08-11 14:51:16 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /static/redoc.standalone.js - Duration: 0.00 seconds
+2024-08-11 14:51:16 - app.main - [INFO] - main.py - line:197 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
