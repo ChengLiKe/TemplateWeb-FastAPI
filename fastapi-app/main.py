@@ -1,4 +1,4 @@
-# app/main.py
+# fastapi-app/main.py
 
 # **************************************************************************************************************************
 # 【1】加载.env配置文件
@@ -58,7 +58,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import RedirectResponse, HTMLResponse
 from jinja2 import Environment, FileSystemLoader
 
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
+app.mount("/static", StaticFiles(directory="fastapi-app/static"), name="static")
 
 
 @app.get("/docs", include_in_schema=False)
@@ -110,9 +110,9 @@ async def pdfs():
     列出 pdf_directory 目录下的所有 PDF 文件，并生成 HTML 页面
     """
     # 配置 Jinja2 模板引擎
-    env = Environment(loader=FileSystemLoader("app/static/templates"))
+    env = Environment(loader=FileSystemLoader("fastapi-app/static/templates"))
     try:
-        files = os.listdir("app/static/templates/pdf")
+        files = os.listdir("fastapi-app/static/templates/pdf")
         pdf_files = [file for file in files if file.endswith(".pdf")]
         print(pdf_files)
         template = env.get_template("pdf.html")

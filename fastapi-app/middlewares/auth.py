@@ -1,4 +1,4 @@
-# app/middlewares/auth.py
+# fastapi-app/middlewares/auth.py
 
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request

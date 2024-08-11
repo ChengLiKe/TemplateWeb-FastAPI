@@ -1,4 +1,4 @@
-# app/events/life_cycle.py
+# fastapi-app/events/life_cycle.py
 
 import logging
 import os

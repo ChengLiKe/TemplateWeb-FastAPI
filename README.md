@@ -45,7 +45,7 @@
 
 4. **运行应用**:
     ```bash
-    uvicorn app.main:app --reload
+    uvicorn fastapi-app.main:fastapi-app --reload
     ```
 
 5. **访问 API 文档**:
