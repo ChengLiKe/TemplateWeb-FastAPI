@@ -11,11 +11,11 @@ import os
 HOST = os.getenv("HOST", "127.0.0.1")
 PORT = int(os.getenv("PORT", 8000))
 
-REDOC_URL = f"http://{HOST}:{PORT}/redoc"
+DOCS_URL = f"http://{HOST}:{PORT}/metrics"
 # 使用 iframe 嵌入 FastAPI 文档
 st.components.v1.html(f"""
             <iframe 
-                src="{REDOC_URL}" 
+                src="{DOCS_URL}" 
                 width="100%" 
                 height="800" 
                 frameborder="0">

@@ -11,9 +11,6 @@ import os
 HOST = os.getenv("HOST", "127.0.0.1")
 PORT = int(os.getenv("PORT", 8000))
 
-# st.set_page_config(page_title="Docs - API Documentation", page_icon="🦄")
-# st.sidebar.header("Docs - API Documentation")
-
 DOCS_URL = f"http://{HOST}:{PORT}/docs"
 # 使用 iframe 嵌入 FastAPI 文档
 st.components.v1.html(f"""

@@ -9,6 +9,7 @@ pages = {
     "API-Documentation": [
         st.Page("API-Documentation/docs.py", title="Docs"),
         st.Page("API-Documentation/redoc.py", title="Redoc"),
+        st.Page("API-Documentation/metrics.py", title="Metrics"),
     ],
 }
 

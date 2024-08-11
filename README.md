@@ -45,7 +45,7 @@
 
 4. **运行应用**:
     ```bash
-    uvicorn fastapi-app.main:fastapi-app --reload
+    python main.py   
     ```
 
 5. **访问 API 文档**:
