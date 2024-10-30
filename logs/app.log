@@ -1024,3 +1024,38 @@
 2024-08-11 19:57:00 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
 2024-08-11 19:57:01 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
 2024-08-11 19:57:01 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-10-30 06:29:27 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-10-30 06:29:27 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /static/swagger-ui.css - Duration: 0.00 seconds
+2024-10-30 06:29:27 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /static/swagger-ui-bundle.js - Duration: 0.00 seconds
+2024-10-30 06:29:28 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-10-30 06:29:31 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /redoc - Duration: 0.00 seconds
+2024-10-30 06:29:31 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /static/redoc.standalone.js - Duration: 0.00 seconds
+2024-10-30 06:29:31 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-10-30 06:29:34 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /metrics - Duration: 0.00 seconds
+2024-10-30 06:29:41 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /redoc - Duration: 0.00 seconds
+2024-10-30 06:29:41 - fastapi-app.main - [INFO] - main.py - line:173 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-10-30 07:03:53 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-10-30 07:03:54 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /static/swagger-ui.css - Duration: 0.01 seconds
+2024-10-30 07:03:54 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /static/swagger-ui-bundle.js - Duration: 0.00 seconds
+2024-10-30 07:03:54 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-10-30 07:03:59 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /redoc - Duration: 0.00 seconds
+2024-10-30 07:04:00 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /static/redoc.standalone.js - Duration: 0.00 seconds
+2024-10-30 07:04:00 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-10-30 07:04:02 - fastapi-app.middlewares_handlers - [ERROR] - middlewares_handlers.py - line:50 - log_requests_middleware() - http://localhost:8000/metrics - Duration: 0.00 seconds
+2024-10-30 07:05:15 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /redoc - Duration: 0.00 seconds
+2024-10-30 07:05:15 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-10-30 07:05:29 - fastapi-app.middlewares_handlers - [ERROR] - middlewares_handlers.py - line:50 - log_requests_middleware() - http://127.0.0.1:8000/ - Duration: 0.00 seconds
+2024-10-30 07:05:33 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-10-30 07:05:33 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /static/swagger-ui.css - Duration: 0.00 seconds
+2024-10-30 07:05:33 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /static/swagger-ui-bundle.js - Duration: 0.00 seconds
+2024-10-30 07:05:34 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-10-30 07:05:38 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /example/get/HelloWorld - Duration: 0.00 seconds
+2024-10-30 07:05:45 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /example/get/data - Duration: 0.00 seconds
+2024-10-30 07:06:01 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-10-30 07:06:02 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-10-30 07:06:02 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /redoc - Duration: 0.00 seconds
+2024-10-30 07:06:03 - fastapi-app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+2024-10-30 07:06:03 - fastapi-app.middlewares_handlers - [ERROR] - middlewares_handlers.py - line:50 - log_requests_middleware() - http://localhost:8000/metrics - Duration: 0.00 seconds
+2024-10-30 07:08:37 - app.middlewares_handlers - [ERROR] - middlewares_handlers.py - line:50 - log_requests_middleware() - http://127.0.0.1:8000/ - Duration: 0.00 seconds
+2024-10-30 07:08:42 - app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
+2024-10-30 07:08:42 - app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds

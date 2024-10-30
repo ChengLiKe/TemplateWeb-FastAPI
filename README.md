@@ -31,27 +31,26 @@
     cd <project-directory>
     ```
 
-2. **创建虚拟环境** (可选):
+2. **创建虚拟环境** (可选) 建议使用poetry管理虚拟环境，项目中已经提供了 `pyproject.toml` 文件。
     ```bash
     pip install poetry
-    source venv/bin/activate  # 在 Linux/MacOS
-    venv\Scripts\activate     # 在 Windows
     ```
 
-3. **安装依赖**:
+3. **安装依赖**
+在项目目录中，运行以下命令以安装 `pyproject.toml` 中列出的所有依赖：
     ```bash
-    pip install -r requirements.txt
+    poetry install
     ```
 
-4. **运行应用**:
+1. **运行应用**:
     ```bash
-    python main.py   
+    poetry run python app.py 
     ```
 
-5. **访问 API 文档**:
+2. **访问 API 文档**:
    打开浏览器并访问 [http://localhost:8000/docs](http://localhost:8000/docs)。
 
-6. **设置监控**:
+3. **设置监控**:
    - **Prometheus**: 请确保已经配置好 Prometheus，并在 `prometheus.yml` 中添加 FastAPI 应用的监控目标（例如，`http://localhost:8000/metrics`）。
    - **Grafana**: 安装 Grafana，并创建新的仪表盘来可视化 Prometheus 监控的数据。
 
