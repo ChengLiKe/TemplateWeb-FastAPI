@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a860a84-96a2-4ce2-8da3-29f2013bd4ee" name="更改" comment="[update] README.md&#10;[delete] # set_page_config">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +43,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/A_WorkOnPC_2024/Project/TemplateWeb",
+    "last_opened_file_path": "F:/A_WorkOnPC_2024/Project/TemplateWeb-FastAPI",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -123,6 +123,7 @@
       <workItem from="1723102051558" duration="1356000" />
       <workItem from="1723358057816" duration="8746000" />
       <workItem from="1723371078679" duration="6426000" />
+      <workItem from="1733038370019" duration="582000" />
     </task>
     <task id="LOCAL-00001" summary="[init]">
       <option name="closed" value="true" />
