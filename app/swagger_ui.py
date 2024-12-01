@@ -1,4 +1,5 @@
-# app/docs.py
+# app/handlers/swagger_ui.py
+""" Swagger UI Handler 配置Swagger的静态页面 """
 import os
 from fastapi import FastAPI, HTTPException
 from fastapi.openapi.docs import (
@@ -9,8 +10,10 @@ from fastapi.openapi.docs import (
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
 import markdown
+from starlette.responses import RedirectResponse
 
-def setup_docs(app: FastAPI):
+
+def swagger_ui(app: FastAPI):
     # Mount static files
     app.mount("/static", StaticFiles(directory="app/static"), name="static")
 

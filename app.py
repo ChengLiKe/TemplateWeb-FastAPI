@@ -1,7 +1,6 @@
-import uvicorn
 import threading
-import subprocess
-import sys
+
+import uvicorn
 from dotenv import load_dotenv
 
 # 加载 .env 文件
@@ -19,6 +18,7 @@ def start_fastapi():
 
 
 if __name__ == "__main__":
-    thread_fastapi = threading.Thread(target=start_fastapi)
-    thread_fastapi.start()
-    thread_fastapi.join()
+    start_fastapi()
+    # thread_fastapi = threading.Thread(target=start_fastapi)
+    # thread_fastapi.start()
+    # thread_fastapi.join()

@@ -1,9 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: UTF-8 -*-
-
-"""
-格式化日志，本地打印
-"""
+# app/events/logger_config.py
+"""格式化日志，本地打印"""
 
 import logging
 import os
@@ -13,6 +9,35 @@ logger_level = logging.DEBUG
 log_path = 'logs/'
 if not os.path.exists(log_path):
     os.makedirs(log_path)
+
+# ANSI 转义序列
+RESET = "\033[0m"
+GREEN = "\033[92m"  # DEBUG
+BLUE = "\033[32m"  # INFO
+YELLOW = "\033[93m"  # WARNING
+RED = "\033[91m"  # ERROR
+MAGENTA = "\033[95m"  # CRITICAL
+
+
+# 创建一个自定义的格式化器
+class ColoredFormatter(logging.Formatter):
+    COLORS = {
+        'DEBUG': GREEN,
+        'INFO': BLUE,
+        'WARNING': YELLOW,
+        'ERROR': RED,
+        'CRITICAL': MAGENTA,
+    }
+
+    def format(self, record):
+        # 获取当前日志级别的颜色
+        color = self.COLORS.get(record.levelname, RESET)
+        # 格式化时间戳和级别名称部分
+        record.asctime = self.formatTime(record, self.datefmt)
+        # 将整个部分变色
+        msecs = int(record.msecs)  # 转换为整数
+        formatted_message = f"{color}[{record.asctime},{msecs:03d}] [{record.levelname:>8s}]{RESET} - {record.msg}"
+        return formatted_message
 
 
 def setup_logger(logger_name):
@@ -29,9 +54,8 @@ def setup_logger(logger_name):
     file_handler.setLevel(logging.INFO)
 
     # 创建格式器并添加到处理器
-    formatter = logging.Formatter(
-        '%(asctime)s - %(name)s - [%(levelname)s] - %(filename)s - line:%(lineno)d - %(funcName)s() - %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S')
+    formatter = ColoredFormatter('%(message)s',
+                                 datefmt='%Y-%m-%d %H:%M:%S')
     console_handler.setFormatter(formatter)
     file_handler.setFormatter(formatter)
 

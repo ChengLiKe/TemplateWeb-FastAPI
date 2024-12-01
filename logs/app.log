@@ -1059,3 +1059,27 @@
 2024-10-30 07:08:37 - app.middlewares_handlers - [ERROR] - middlewares_handlers.py - line:50 - log_requests_middleware() - http://127.0.0.1:8000/ - Duration: 0.00 seconds
 2024-10-30 07:08:42 - app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /docs - Duration: 0.00 seconds
 2024-10-30 07:08:42 - app.middlewares_handlers - [INFO] - middlewares_handlers.py - line:52 - log_requests_middleware() - GET /openapi.json - Duration: 0.00 seconds
+[91m[2024-12-01 16:24:16,780] [   ERROR][0m - http://localhost:8000/metrics - Duration: 0.00 seconds
+[32m[2024-12-01 16:24:20,687] [    INFO][0m - GET / - Duration: 0.00 seconds
+[32m[2024-12-01 16:24:20,705] [    INFO][0m - GET /docs - Duration: 0.00 seconds
+[32m[2024-12-01 16:24:20,780] [    INFO][0m - GET /static/swagger-ui.css - Duration: 0.05 seconds
+[32m[2024-12-01 16:24:20,782] [    INFO][0m - GET /static/swagger-ui-bundle.js - Duration: 0.05 seconds
+[32m[2024-12-01 16:24:20,987] [    INFO][0m - GET /openapi.json - Duration: 0.00 seconds
+[32m[2024-12-01 16:24:24,785] [    INFO][0m - GET / - Duration: 0.00 seconds
+[32m[2024-12-01 16:24:24,790] [    INFO][0m - GET /docs - Duration: 0.00 seconds
+[32m[2024-12-01 16:24:35,789] [    INFO][0m - GET /example/get/data - Duration: 0.00 seconds
+[32m[2024-12-01 16:24:36,613] [    INFO][0m - GET /example/get/data - Duration: 0.00 seconds
+[32m[2024-12-01 16:24:40,372] [    INFO][0m - GET /example/get/data - Duration: 0.00 seconds
+[32m[2024-12-01 16:55:44,653] [    INFO][0m - ”¶”√“—∆Ù∂Ø.
+[32m[2024-12-01 16:56:11,152] [    INFO][0m - GET / - time: 0.00 seconds
+[32m[2024-12-01 16:56:11,161] [    INFO][0m - GET /docs - time: 0.00 seconds
+[32m[2024-12-01 16:56:11,266] [    INFO][0m - GET /static/swagger-ui.css - time: 0.06 seconds
+[32m[2024-12-01 16:56:11,269] [    INFO][0m - GET /static/swagger-ui-bundle.js - time: 0.00 seconds
+[32m[2024-12-01 16:56:11,549] [    INFO][0m - GET /openapi.json - time: 0.02 seconds
+[32m[2024-12-01 16:56:16,226] [    INFO][0m - GET /example/get/items/ - time: 0.00 seconds
+[91m[2024-12-01 16:56:41,634] [   ERROR][0m - http://localhost:8000/example/get/items/ - time: 0.00 seconds
+[32m[2024-12-01 16:58:35,360] [    INFO][0m - ”¶”√“—πÿ±’.
+[32m[2024-12-01 16:58:37,440] [    INFO][0m - ”¶”√“—∆Ù∂Ø.
+[32m[2024-12-01 16:58:44,361] [    INFO][0m - POST /example/get/items/ - time: 0.00 seconds
+[32m[2024-12-01 16:58:54,400] [    INFO][0m - GET /example/get/data - time: 0.00 seconds
+[32m[2024-12-01 16:58:59,468] [    INFO][0m - GET /example/get/items/ - time: 0.00 seconds
