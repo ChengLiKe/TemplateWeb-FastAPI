@@ -18,7 +18,7 @@ from app.events import events  # 引入事件模块
 from app.middlewares import middlewares  # 引入中间件模块
 
 # 【1】加载.env配置文件
-env_file = os.getenv("ENV_FILE", ".env.development")
+env_file = os.getenv("ENV_FILE", ".env")
 load_dotenv(env_file)
 
 DESCRIPTION = (
@@ -60,3 +60,16 @@ app.include_router(
 )
 
 # ----------------------------------------------------------------------------
+
+if __name__ == "__main__":
+    import uvicorn
+    from dotenv import load_dotenv
+
+    # 加载 .env 文件
+    load_dotenv()
+    import os
+
+    # 读取配置
+    HOST = os.getenv("HOST", "127.0.0.1")
+    PORT = int(os.getenv("PORT", 8000))
+    uvicorn.run(app, host=HOST, port=PORT, reload=False)

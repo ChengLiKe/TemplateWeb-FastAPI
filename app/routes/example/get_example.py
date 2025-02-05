@@ -41,7 +41,6 @@ async def read_item(item_id: int):
     raise HTTPException(status_code=404, detail="Item not found")
 
 
-# POST 接口：创建新项目
 # POST 接口：新增项目
 @get_example.post("/items/", response_model=Item)
 async def create_item(item: Item):
