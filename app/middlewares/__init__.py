@@ -15,9 +15,7 @@ from fastapi import Request, Response
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import JSONResponse
 from fastapi import FastAPI
-from app.events import setup_logger
-
-logger = setup_logger(__name__)
+from app import logger
 
 # 包元数据
 __version__ = "1.0.0"

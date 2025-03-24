@@ -1,15 +1,16 @@
-# app/handlers/swagger_ui.py
+# app/static/swagger_ui.py
 """ Swagger UI Handler 配置Swagger的静态页面 """
 import os
+
+import markdown
 from fastapi import FastAPI, HTTPException
 from fastapi.openapi.docs import (
     get_redoc_html,
     get_swagger_ui_html,
     get_swagger_ui_oauth2_redirect_html,
 )
-from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
-import markdown
+from fastapi.staticfiles import StaticFiles
 from starlette.responses import RedirectResponse
 
 
@@ -50,7 +51,7 @@ def swagger_ui(app: FastAPI):
         # 将 Markdown 转换为 HTML
         html_content = markdown.markdown(md_content)
         return HTMLResponse(content=html_content)
-    
+
     @app.get("/")
     async def redirect_to_docs():
         return RedirectResponse(url="/docs")
