@@ -6,7 +6,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 logger_level = logging.DEBUG
-log_path = 'app/logs/'
+log_path = 'logs/'
 if not os.path.exists(log_path):
     os.makedirs(log_path)
 

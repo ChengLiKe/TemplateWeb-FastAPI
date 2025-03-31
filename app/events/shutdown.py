@@ -1,7 +1,5 @@
 # app/events/shutdown.py
-from .logger_config import setup_logger
-
-logger = setup_logger(__name__)
+from app import logger
 
 
 async def shutdown():

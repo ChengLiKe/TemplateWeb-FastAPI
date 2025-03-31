@@ -13,7 +13,7 @@ import os
 from dotenv import load_dotenv
 from fastapi import FastAPI
 
-from app.swagger_ui import swagger_ui  # 引入swagger静态文件配置模块
+from app.static.swagger_ui import swagger_ui  # 引入swagger静态文件配置模块
 from app.events import events  # 引入事件模块
 from app.middlewares import middlewares  # 引入中间件模块
 
@@ -22,8 +22,7 @@ env_file = os.getenv("ENV_FILE", ".env")
 load_dotenv(env_file)
 
 DESCRIPTION = (
-    "这是一个FastAPI的模板项目. 如果想知道更多详情, 请点击链接获取: "
-    "[README.md](https://{}:{}/README)".format(os.getenv("HOST"), os.getenv("PORT"))
+    "这是一个FastAPI的模板项目。"
 )
 
 # 【2】初始化FastAPI
