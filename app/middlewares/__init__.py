@@ -15,7 +15,7 @@ from fastapi import Request, Response
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import JSONResponse
 from fastapi import FastAPI
-from app import logger
+from app.utils import logger
 
 # 包元数据
 __version__ = "1.0.0"

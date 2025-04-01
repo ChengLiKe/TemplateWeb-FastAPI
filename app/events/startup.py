@@ -1,5 +1,5 @@
 # app/events/startup.py
-from app import logger
+from app.utils import logger
 
 
 async def startup():

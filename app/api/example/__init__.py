@@ -6,5 +6,5 @@ router = APIRouter()
 
 router.include_router(
     get_example,
-    prefix="/get"
+    prefix="/get_example"
 )
