@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6674bf13-0803-4758-981d-9260e94033f2" name="更改" comment="[update]添加Dockerfile部署，修改启动方式">
-      <change afterPath="$PROJECT_DIR$/app/static/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TemplateWeb-FastAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TemplateWeb-FastAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/example/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/example/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/events/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/events/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/events/shutdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/events/shutdown.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/events/startup.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/events/startup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middlewares/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/middlewares/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/logger_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/logger_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/A_WorkOnPC_2025/jxw/RecommendedSimilarQuestion/TemplateWeb-FastAPI",
+    "last_opened_file_path": "G:/A_WorkOnPC_2024/Project/TemplateWeb-FastAPI",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
@@ -89,7 +81,9 @@
       <updated>1742785322854</updated>
       <workItem from="1742785324841" duration="2220000" />
       <workItem from="1743473252741" duration="105000" />
-      <workItem from="1743474675867" duration="2894000" />
+      <workItem from="1743474675867" duration="5536000" />
+      <workItem from="1743996988071" duration="5000" />
+      <workItem from="1751339619923" duration="223000" />
     </task>
     <task id="LOCAL-00001" summary="[update]添加Dockerfile部署，修改启动方式">
       <option name="closed" value="true" />
@@ -99,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743473339718</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[update]添加Dockerfile部署，修改启动方式">
+      <option name="closed" value="true" />
+      <created>1743477713434</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743477713434</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
