@@ -1,6 +1,7 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel
 from typing import List, Optional
+from app.middlewares import limiter
 
 get_example = APIRouter()
 
@@ -17,7 +18,8 @@ items = []
 
 
 @get_example.get("/HelloWorld", summary="this is get example")
-async def hello_world():
+@limiter.limit("5/minute")
+async def hello_world(request: Request):   # ← 加上 request
     return {"message": "Hello World"}
 
 

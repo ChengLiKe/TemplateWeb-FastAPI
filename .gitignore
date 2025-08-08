@@ -1,2 +1,39 @@
-logs/
-.idea
+# 忽略IDE相关文件
+*.iml
+*.ipr
+*.ipnyb
+*.ipch
+*.suo
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# 忽略编译生成的文件
+__pycache__/
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.exe
+
+# 忽略版本控制系统的配置文件
+.git
+.svn
+.hg
+
+# 忽略临时文件
+*.tmp
+*.log
+*.swp
+*.bak
+*.tmp
+*.dmp
+
+# 忽略项目依赖的安装包
+venv/
+env/
+pipenv/
+poetry.lock
+Pipfile.lock
