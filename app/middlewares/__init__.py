@@ -23,6 +23,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.gzip import GZipMiddleware
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import JSONResponse
+import logging
 
 from app.utils import logger
 
@@ -157,22 +158,90 @@ def _add_structured_logging(app: FastAPI) -> None:
     async def _logging_middleware(
         request: Request, call_next: Callable[[Request], Awaitable[Response]]
     ) -> Response:
+        # 请求开始时间
         start = time.time()
-        response = await call_next(request)
-        latency = time.time() - start
+        request_id = getattr(request.state, "request_id", None)
+        
+        # 提取请求头信息（但不记录敏感信息）
+        headers = {k: v for k, v in request.headers.items() 
+                 if k.lower() not in ('authorization', 'cookie', 'x-api-key')}
+        
+        # 记录请求开始信息
         logger.info(
-            "http_request",
+            f"开始处理请求 [{request.method} {request.url.path}] 来自 {request.client.host if request.client else '未知IP'}",
             extra={
-                "request_id": getattr(request.state, "request_id", None),
+                "type": "request_start",
+                "request_id": request_id,
                 "method": request.method,
                 "path": request.url.path,
-                "status_code": response.status_code,
-                "latency": round(latency, 3),
-                "user_agent": request.headers.get("user-agent"),
+                "path_params": dict(request.path_params),
+                "query_params": dict(request.query_params),
+                "headers": headers,
                 "real_ip": request.client.host if request.client else None,
             },
         )
-        return response
+        
+        # 处理请求
+        try:
+            response = await call_next(request)
+            latency = time.time() - start
+            
+            # 根据状态码确定日志级别
+            log_level = logging.INFO
+            if 500 <= response.status_code < 600:
+                log_level = logging.ERROR
+            elif 400 <= response.status_code < 500:
+                log_level = logging.WARNING
+            
+            # 确定请求处理结果
+            result = "成功" if response.status_code < 400 else "失败"
+            
+            # 获取响应体大小（Content-Length或估计值）
+            response_size = response.headers.get("content-length", "未知")
+            
+            # 构建结构化日志消息
+            log_message = f"请求处理{result} [{request.method} {request.url.path}] "
+            log_message += f"状态码: {response.status_code}, 延迟: {round(latency * 1000)}ms, "
+            log_message += f"响应大小: {response_size}"
+            
+            # 记录请求完成信息
+            logger.log(
+                log_level,
+                log_message,
+                extra={
+                    "type": "request_complete",
+                    "request_id": request_id,
+                    "method": request.method,
+                    "path": request.url.path,
+                    "status_code": response.status_code,
+                    "latency_ms": round(latency * 1000),  # 转换为毫秒
+                    "latency": round(latency, 3),
+                    "user_agent": request.headers.get("user-agent"),
+                    "real_ip": request.client.host if request.client else None,
+                    "response_size": response_size,
+                    "result": result,
+                },
+            )
+            
+            return response
+        except Exception as e:
+            # 记录异常信息
+            latency = time.time() - start
+            logger.error(
+                f"请求处理异常 [{request.method} {request.url.path}]: {str(e)}",
+                extra={
+                    "type": "request_error",
+                    "request_id": request_id,
+                    "method": request.method,
+                    "path": request.url.path,
+                    "error": str(e),
+                    "latency": round(latency, 3),
+                    "real_ip": request.client.host if request.client else None,
+                },
+                exc_info=True
+            )
+            # 重新抛出异常，让上层异常处理器处理
+            raise
 
 
 # -------------------- Exception Handlers --------------------
