@@ -1,68 +1,98 @@
-# app/events/logger_config.py
-"""格式化日志，本地打印"""
+"""
+Logger configuration:
+- Colored console output; color auto-disabled on non-TTY
+- Plain text file output without ANSI sequences
+- Avoid duplicate handlers on repeated setup calls
+- Configurable level and directory via environment variables
+"""
 
 import logging
 import os
+import sys
+from pathlib import Path
 from logging.handlers import RotatingFileHandler
 
-logger_level = logging.DEBUG
-log_path = 'logs/'
-if not os.path.exists(log_path):
-    os.makedirs(log_path)
+# Level configuration via env: LOG_LEVEL=DEBUG|INFO|WARNING|ERROR|CRITICAL
+LOG_LEVEL_NAME = os.getenv("LOG_LEVEL", "DEBUG").upper()
+LOGGER_LEVEL = getattr(logging, LOG_LEVEL_NAME, logging.DEBUG)
 
-# ANSI 转义序列
-RESET = "\033[0m"
-GREEN = "\033[92m"  # DEBUG
-BLUE = "\033[32m"  # INFO
-YELLOW = "\033[93m"  # WARNING
-RED = "\033[91m"  # ERROR
-MAGENTA = "\033[95m"  # CRITICAL
+# Log directory via env: LOG_DIR=./logs
+LOG_DIR = Path(os.getenv("LOG_DIR", "logs"))
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+LOG_FILE = LOG_DIR / "app.log"
+
+# ANSI escape sequences
+RESET = "\x1b[0m"
+COLOR_DEBUG = "\x1b[92m"     # Bright green
+COLOR_INFO = "\x1b[34m"      # Blue (fix from 32/green)
+COLOR_WARNING = "\x1b[93m"   # Bright yellow
+COLOR_ERROR = "\x1b[91m"     # Bright red
+COLOR_CRITICAL = "\x1b[95m"  # Bright magenta
+
+LEVEL_COLORS = {
+    "DEBUG": COLOR_DEBUG,
+    "INFO": COLOR_INFO,
+    "WARNING": COLOR_WARNING,
+    "ERROR": COLOR_ERROR,
+    "CRITICAL": COLOR_CRITICAL,
+}
+
+CONSOLE_FMT = "%(asctime)s.%(msecs)03d [%(levelname)8s] %(name)s:%(lineno)d - %(message)s"
+FILE_FMT = "%(asctime)s.%(msecs)03d [%(levelname)8s] %(name)s:%(lineno)d - %(message)s"
+DATE_FMT = "%Y-%m-%d %H:%M:%S"
 
 
-# 创建一个自定义的格式化器
 class ColoredFormatter(logging.Formatter):
-    COLORS = {
-        'DEBUG': GREEN,
-        'INFO': BLUE,
-        'WARNING': YELLOW,
-        'ERROR': RED,
-        'CRITICAL': MAGENTA,
-    }
+    """Formatter that wraps the entire formatted string with level color."""
+
+    def __init__(self, fmt=None, datefmt=None, use_color=True):
+        super().__init__(fmt=fmt, datefmt=datefmt)
+        # Disable color when stdout is not a TTY (e.g., piped)
+        self.use_color = bool(use_color) and sys.stdout.isatty()
 
     def format(self, record):
-        # 获取当前日志级别的颜色
-        color = self.COLORS.get(record.levelname, RESET)
-        # 格式化时间戳和级别名称部分
-        record.asctime = self.formatTime(record, self.datefmt)
-        # 将整个部分变色
-        msecs = int(record.msecs)  # 转换为整数
-        formatted_message = f"{color}[{record.asctime},{msecs:03d}] [{record.levelname:>8s}]{RESET} - {record.msg}"
-        return formatted_message
+        base = super().format(record)
+        if not self.use_color:
+            return base
+        color = LEVEL_COLORS.get(record.levelname, RESET)
+        return f"{color}{base}{RESET}"
 
 
-def setup_logger(logger_name):
-    # 创建日志记录器
+def setup_logger(logger_name: str = "app") -> logging.Logger:
+    """
+    Create or retrieve a logger with:
+    - Colored console handler (level from env, default DEBUG)
+    - Rotating file handler (INFO+), UTF-8, 1MB x 3 backups
+    - No handler duplication across repeated calls
+    """
     logger = logging.getLogger(logger_name)
-    logger.setLevel(logger_level)
 
-    # 创建控制台处理器并设置级别为DEBUG
-    console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.DEBUG)
+    # If already configured, return as-is to avoid duplicate handlers
+    if logger.handlers:
+        return logger
 
-    # 创建文件处理器，文件大小达到1MB时回滚
-    file_handler = RotatingFileHandler(f"{log_path}app.log", maxBytes=1 * 1024 * 1024, backupCount=3)
+    logger.setLevel(LOGGER_LEVEL)
+
+    # Console handler with color
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(LOGGER_LEVEL)
+    console_handler.setFormatter(
+        ColoredFormatter(CONSOLE_FMT, datefmt=DATE_FMT, use_color=True)
+    )
+
+    # File handler, plain text formatter
+    file_handler = RotatingFileHandler(
+        str(LOG_FILE), maxBytes=1 * 1024 * 1024, backupCount=3, encoding="utf-8"
+    )
     file_handler.setLevel(logging.INFO)
+    file_handler.setFormatter(logging.Formatter(FILE_FMT, datefmt=DATE_FMT))
 
-    # 创建格式器并添加到处理器
-    formatter = ColoredFormatter('%(message)s',
-                                 datefmt='%Y-%m-%d %H:%M:%S')
-    console_handler.setFormatter(formatter)
-    file_handler.setFormatter(formatter)
-
-    # 将处理器添加到记录器
     logger.addHandler(console_handler)
     logger.addHandler(file_handler)
 
-    # 禁止日志消息向上传递给父记录器，避免重复输出
+    # Do not propagate to parent to avoid duplicate outputs
     logger.propagate = False
     return logger
+
+
+__all__ = ["setup_logger"]

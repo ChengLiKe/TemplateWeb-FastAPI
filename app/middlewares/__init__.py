@@ -166,9 +166,14 @@ def _add_structured_logging(app: FastAPI) -> None:
         headers = {k: v for k, v in request.headers.items() 
                  if k.lower() not in ('authorization', 'cookie', 'x-api-key')}
         
-        # 记录请求开始信息
+        # 统一可识别的请求标识
+        method_path = f"{request.method} {request.url.path}"
+        client_ip = request.client.host if request.client else "未知IP"
+        rid = request_id or "-"
+        
+        # 记录请求开始信息（更易辨认）
         logger.info(
-            f"开始处理请求 [{request.method} {request.url.path}] 来自 {request.client.host if request.client else '未知IP'}",
+            f"[REQ {rid}] ▶ START [{method_path}] ip={client_ip}",
             extra={
                 "type": "request_start",
                 "request_id": request_id,
@@ -204,6 +209,13 @@ def _add_structured_logging(app: FastAPI) -> None:
             log_message += f"状态码: {response.status_code}, 延迟: {round(latency * 1000)}ms, "
             log_message += f"响应大小: {response_size}"
             
+            # 构建更易辨认的日志消息
+            log_message = (
+                f"[REQ {rid}] ✔ DONE [{method_path}] "
+                f"status={response.status_code} latency={round(latency * 1000)}ms "
+                f"size={response_size} ip={client_ip}"
+            )
+            
             # 记录请求完成信息
             logger.log(
                 log_level,
@@ -225,10 +237,10 @@ def _add_structured_logging(app: FastAPI) -> None:
             
             return response
         except Exception as e:
-            # 记录异常信息
+            # 记录异常信息（更易辨认）
             latency = time.time() - start
             logger.error(
-                f"请求处理异常 [{request.method} {request.url.path}]: {str(e)}",
+                f"[REQ {rid}] ✖ ERROR [{method_path}]: {str(e)} ip={client_ip}",
                 extra={
                     "type": "request_error",
                     "request_id": request_id,

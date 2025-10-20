@@ -3,6 +3,8 @@ from pydantic import BaseModel
 from typing import List, Optional
 from app.middlewares import limiter
 
+from app.utils import logger
+
 get_example = APIRouter()
 
 
@@ -21,6 +23,23 @@ items = []
 @limiter.limit("5/minute")
 async def hello_world(request: Request):   # ← 加上 request
     return {"message": "Hello World"}
+
+
+@get_example.get("/ErrorHelloWorld")
+async def error_hello_world(request: Request):
+    raise HTTPException(status_code=400, detail="Bad Request")
+
+
+@get_example.get("/loggingInfo")
+async def logging_info(request: Request):
+    logger.debug("logging debug")
+    logger.info("logging info")
+    for i in range(10):
+        logger.info(f"logging info {i}")
+    logger.warning("logging warning")
+    logger.error("logging error")
+    logger.critical("logging critical")
+    return {"message": "logging info"}
 
 
 @get_example.get("/data")
