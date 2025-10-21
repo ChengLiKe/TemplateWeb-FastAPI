@@ -95,4 +95,34 @@ def setup_logger(logger_name: str = "app") -> logging.Logger:
     return logger
 
 
-__all__ = ["setup_logger"]
+class ComponentLoggerAdapter(logging.LoggerAdapter):
+    """LoggerAdapter that prefixes messages with a component tag and injects extra.component."""
+
+    def __init__(self, logger: logging.Logger, component: str):
+        super().__init__(logger, {})
+        self.component = component
+
+    def process(self, msg, kwargs):
+        extra = kwargs.get("extra") or {}
+        # ensure component in record for potential formatters
+        extra.setdefault("component", self.component)
+        kwargs["extra"] = extra
+        return f"[{self.component}] {msg}", kwargs
+
+
+def get_logger(component: str = "APP") -> ComponentLoggerAdapter:
+    """Get a component-specific logger adapter to enforce unified style."""
+    base = setup_logger("app")
+    return ComponentLoggerAdapter(base, component)
+
+
+def kv(**kwargs) -> str:
+    """Format key-value pairs as 'k=v' joined by spaces, skipping None values."""
+    parts = []
+    for k, v in kwargs.items():
+        if v is None:
+            continue
+        parts.append(f"{k}={v}")
+    return " ".join(parts)
+
+__all__ = ["setup_logger", "get_logger", "kv"]
