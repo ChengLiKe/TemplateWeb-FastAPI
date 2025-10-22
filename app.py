@@ -23,15 +23,31 @@ DESCRIPTION = (
     "这是一个FastAPI的模板项目。"
 )
 
-# 【2】初始化FastAPI
+# 【2】初始化FastAPI（使用集中配置）
+from app.config.settings import Settings
+settings = Settings.load()
+
 app = FastAPI(
-    title=os.getenv("TITLE"),
+    title=settings.title,
     description=DESCRIPTION,
-    version=os.getenv("VERSION"),
+    version=settings.version,
     docs_url=None,
     redoc_url=None,
     lifespan=events,  # 使用 lifespan 事件处理启动/关闭
 )
+# 将配置挂载到应用状态，便于各模块访问
+app.state.settings = settings
+
+# 指标监控：在应用启动前挂载中间件与端点
+if settings.metrics_enabled:
+    try:
+        from prometheus_fastapi_instrumentator import Instrumentator
+        Instrumentator().instrument(app).expose(app, endpoint=settings.metrics_endpoint)
+        from app.utils import get_logger, kv
+        get_logger("APP").info("Metrics " + kv(enabled=True, endpoint=settings.metrics_endpoint))
+    except Exception as e:
+        from app.utils import get_logger, kv
+        get_logger("APP").warning("Metrics " + kv(enabled=False, err=str(e)))
 
 # 【3】配置静态swagger模板
 # ----------------------------------------------------------------------------
@@ -46,10 +62,21 @@ middlewares(app)  # 设置中间件
 
 # 引入功能模块
 # ----------------------------------------------------------------------------
-from app.api import example
+from app.api import example, health
+from app.api.auth import auth_router
+from app.api.example.storage_demo import router as storage_router
 
 app.include_router(
     example.router, prefix="/example", tags=["Example"]
+)
+app.include_router(
+    health.router
+)
+app.include_router(
+    auth_router
+)
+app.include_router(
+    storage_router
 )
 
 # ----------------------------------------------------------------------------

@@ -39,16 +39,16 @@
     ```
 
 3. **安装依赖**
-在项目目录中，运行以下命令以安装 `pyproject.toml` 中列出的所有依赖：
+在项目目录中，运行以下命令以安装 `requirements.txt` 中列出的所有依赖：
 
     ```bash
-    poetry install
+    pip install -r requirements.txt
     ```
 
 4. **运行应用**:
 
     ```bash
-    poetry run python app.py 
+    python app.py
     ```
 
 5. **访问 API 文档**:
@@ -57,6 +57,85 @@
 6. **设置监控**:
    - **Prometheus**: 请确保已经配置好 Prometheus，并在 `prometheus.yml` 中添加 FastAPI 应用的监控目标（例如，`http://localhost:8000/metrics`）。
    - **Grafana**: 安装 Grafana，并创建新的仪表盘来可视化 Prometheus 监控的数据。
+
+## 环境变量配置
+
+支持通过 `.env` 或环境变量进行配置：
+
+- 应用基本：`TITLE`、`VERSION`、`HOST`、`PORT`、`LOG_LEVEL`、`CORS_ORIGINS`
+- 指标监控：`METRICS_ENABLED`（默认 `true`）、`METRICS_ENDPOINT`（默认 `/metrics`）
+- 数据库：`DB_ENABLED`、`DATABASE_URL`、`DB_ECHO`
+- 缓存：`CACHE_ENABLED`、`CACHE_URL`
+- 链路追踪：`TRACING_ENABLED`、`TRACING_SERVICE_NAME`、`TRACING_ENDPOINT`、`TRACING_SAMPLER_RATIO`
+
+示例 `.env`（本地快速体验，SQLite + Redis + Console OTEL）：
+
+```env
+TITLE=FastAPI Template
+VERSION=0.1.0
+HOST=127.0.0.1
+PORT=8000
+LOG_LEVEL=DEBUG
+CORS_ORIGINS=*
+
+# Prometheus
+METRICS_ENABLED=true
+METRICS_ENDPOINT=/metrics
+
+# Database (SQLite file)
+DB_ENABLED=true
+DATABASE_URL=sqlite:///./app.db
+DB_ECHO=false
+
+# Redis
+CACHE_ENABLED=true
+CACHE_URL=redis://localhost:6379/0
+
+# OpenTelemetry (Console exporter fallback when endpoint not provided)
+TRACING_ENABLED=true
+TRACING_SERVICE_NAME=fastapi-template
+# TRACING_ENDPOINT=http://localhost:4318/v1/traces
+TRACING_SAMPLER_RATIO=1.0
+```
+
+## 演示接口（DB/Redis）
+
+- Redis 写入：
+
+  ```bash
+  curl "http://localhost:8000/storage/redis/set?key=foo&value=bar"
+  ```
+
+- Redis 读取：
+
+  ```bash
+  curl "http://localhost:8000/storage/redis/get?key=foo"
+  ```
+
+- 初始化数据库（创建 `kv` 表）：
+
+  ```bash
+  curl -X POST "http://localhost:8000/storage/db/init"
+  ```
+
+- 写入/更新键值（SQLite UPSERT）：
+
+  ```bash
+  curl -X POST "http://localhost:8000/storage/db/upsert?key=hello&value=world"
+  ```
+
+- 查询键值：
+
+  ```bash
+  curl "http://localhost:8000/storage/db/get?key=hello"
+  ```
+
+## 探针与可观测性
+
+- 存活探针：`GET /healthz`
+- 就绪探针：`GET /readyz`（会返回 `db_ready`、`cache_ready`）
+- 指标端点：`GET /metrics`
+- 链路追踪：启用后自动注入（FastAPI），默认导出到 Console；设置 `TRACING_ENDPOINT` 使用 OTLP。
 
 ## 后续扩展
 

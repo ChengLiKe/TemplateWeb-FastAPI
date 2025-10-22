@@ -26,6 +26,8 @@ from starlette.responses import JSONResponse
 import logging
 
 from app.utils import get_logger, kv
+from app.models.response import ErrorResponse
+from app.models.errors import ErrorCode
 
 __version__ = "1.1.0"
 __author__ = "like"
@@ -252,44 +254,46 @@ def _add_structured_logging(app: FastAPI) -> None:
 # -------------------- Exception Handlers --------------------
 # Replace legacy logger with unified style
 def _add_exception_handlers(app: FastAPI) -> None:
+    http_logger = get_logger("HTTP")
     @app.exception_handler(RequestValidationError)
-    async def _validation_exception_handler(
-        request: Request, exc: RequestValidationError
-    ) -> JSONResponse:
-        return JSONResponse(
-            status_code=422,
-            content={
-                "detail": "Validation error",
-                "errors": exc.errors(),
-                "request_id": getattr(request.state, "request_id", None),
-            },
-        )
+    async def _validation_exception_handler(request: Request, exc: RequestValidationError):
+        request_id = getattr(request.state, "request_id", None)
+        http_logger.exception("Validation error " + kv(path=request.url.path, request_id=request_id), exc_info=exc)
+        payload = ErrorResponse(
+            code=ErrorCode.E_VALIDATION.value,
+            message="Validation error",
+            detail=exc.errors(),
+        ).model_dump()
+        payload["request_id"] = request_id
+        return JSONResponse(status_code=422, content=payload)
 
     @app.exception_handler(HTTPException)
-    async def _http_exception_handler(
-        request: Request, exc: HTTPException
-    ) -> JSONResponse:
-        return JSONResponse(
-            status_code=exc.status_code,
-            content={
-                "detail": exc.detail,
-                "request_id": getattr(request.state, "request_id", None),
-            },
+    async def _http_exception_handler(request: Request, exc: HTTPException):
+        request_id = getattr(request.state, "request_id", None)
+        code = ErrorCode.from_status(exc.status_code).value
+        # detail may already be structured; extract message when possible
+        message = exc.detail if isinstance(exc.detail, str) else (
+            exc.detail.get("message") if isinstance(exc.detail, dict) else "HTTP error"
         )
+        http_logger.exception(
+            "HTTPException " + kv(status=exc.status_code, code=code, message=message, path=request.url.path, request_id=request_id),
+            exc_info=exc,
+        )
+        payload = ErrorResponse(code=code, message=message, detail=(exc.detail if not isinstance(exc.detail, str) else None)).model_dump()
+        payload["request_id"] = request_id
+        return JSONResponse(status_code=exc.status_code, content=payload)
 
     @app.exception_handler(Exception)
-    async def _all_exception_handler(request: Request, exc: Exception) -> JSONResponse:
-        get_logger("HTTP").exception(
-            "✖ UNHANDLED " + kv(path=request.url.path),
-            extra={"request_id": getattr(request.state, "request_id", None)},
-        )
-        return JSONResponse(
-            status_code=500,
-            content={
-                "detail": "Internal server error",
-                "request_id": getattr(request.state, "request_id", None),
-            },
-        )
+    async def _unhandled_exception_handler(request: Request, exc: Exception):
+        request_id = getattr(request.state, "request_id", None)
+        http_logger.exception("Unhandled error " + kv(path=request.url.path, request_id=request_id), exc_info=exc)
+        payload = ErrorResponse(
+            code=ErrorCode.E_SERVER_ERROR.value,
+            message="Internal server error",
+            detail=str(exc),
+        ).model_dump()
+        payload["request_id"] = request_id
+        return JSONResponse(status_code=500, content=payload)
 
 
 # -------------------- Graceful Shutdown --------------------
