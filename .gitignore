@@ -37,3 +37,17 @@ env/
 pipenv/
 poetry.lock
 Pipfile.lock
+
+# 排除所有文件夹
+/*/
+
+# 但保留tool和model文件夹
+!/tool/
+!/model/
+!/app/
+
+# 保留之前的特定排除规则
+*/cropped_images/*
+*/cropped_images/**/*
+*/cropped_results/*
+*/cropped_results/**/*
