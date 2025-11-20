@@ -102,8 +102,8 @@ class DatabaseHandler(logging.Handler):
                     # 首次激活时尝试创建表
                     with engine.connect() as conn:
                         try:
-                            conn.execute(text("""
-                                CREATE TABLE IF NOT EXISTS "+settings.logs_table_name+" (
+                            conn.execute(text(f"""
+                                CREATE TABLE IF NOT EXISTS {settings.logs_table_name} (
                                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                                     timestamp TEXT,
                                     level TEXT,
@@ -154,10 +154,10 @@ class DatabaseHandler(logging.Handler):
                 trace_id_str = f"'{trace_id}'" if trace_id else 'NULL'
                 
                 # 构建更简洁的插入语句
-                insert_sql = """
-                    INSERT INTO "+settings.logs_table_name+" (timestamp, level, logger, module, line, message, component, trace_id)
-                    VALUES ('{}', '{}', '{}', '{}', {}, '{}', {}, {})
-                """.format(timestamp, level, logger_name, module, line, message, component_str, trace_id_str)
+                insert_sql = f"""
+                    INSERT INTO {settings.logs_table_name} (timestamp, level, logger, module, line, message, component, trace_id)
+                    VALUES ('{timestamp}', '{level}', '{logger_name}', '{module}', {line}, '{message}', {component_str}, {trace_id_str})
+                """
                 
                 # 执行插入并提交
                 conn.execute(text(insert_sql))
