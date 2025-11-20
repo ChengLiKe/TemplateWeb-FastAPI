@@ -65,6 +65,7 @@ middlewares(app)  # 设置中间件
 from app.api import example, health
 from app.api.auth import auth_router
 from app.api.example.storage_demo import router as storage_router
+from app.api import logs
 
 app.include_router(
     example.router, prefix="/example", tags=["Example"]
@@ -78,18 +79,14 @@ app.include_router(
 app.include_router(
     storage_router
 )
+app.include_router(
+    logs.router
+)
 
 # ----------------------------------------------------------------------------
 
 if __name__ == "__main__":
     import uvicorn
-    from dotenv import load_dotenv
-
-    # 加载 .env 文件
-    load_dotenv()
-    import os
-
-    # 读取配置
-    HOST = os.getenv("HOST", "127.0.0.1")
-    PORT = int(os.getenv("PORT", 8000))
-    uvicorn.run(app, host=HOST, port=PORT, reload=False)
+    
+    # 使用已加载的settings配置
+    uvicorn.run(app, host=settings.host, port=settings.port, reload=False)

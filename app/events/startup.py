@@ -28,7 +28,7 @@ async def startup(app: FastAPI):
     await init_db(app)
     
     # 数据库初始化完成后，激活数据库日志功能
-    if os.getenv("DB_LOGGING_ENABLED", "false").lower() == "true":
+    if settings.db_logging_enabled:
         try:
             from app.utils.logger_config import DatabaseHandler
             # 为所有已配置的数据库日志处理器设置为活动状态

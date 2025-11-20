@@ -11,7 +11,9 @@ class Settings(BaseModel):
     host: str = "127.0.0.1"
     port: int = 8000
     cors_origins: List[str] = ["*"]
+    cors_max_age: int = 600  # CORS预检请求的缓存时间（秒）
     log_level: str = "DEBUG"
+    log_dir: str = "logs"  # 日志文件目录
 
     # Metrics
     metrics_enabled: bool = True
@@ -21,6 +23,9 @@ class Settings(BaseModel):
     db_enabled: bool = False
     db_url: Optional[str] = None
     db_echo: bool = False
+    db_logging_enabled: bool = True
+    db_logging_level: str = "DEBUG"
+    logs_table_name: str = "logs"
 
     # Cache (Redis)
     cache_enabled: bool = False
@@ -56,12 +61,17 @@ class Settings(BaseModel):
             host=os.getenv("HOST", cls().host),
             port=int(os.getenv("PORT", cls().port)),
             cors_origins=cors_origins,
-            log_level=os.getenv("LOG_LEVEL", cls().log_level),
+            cors_max_age=int(os.getenv("CORS_MAX_AGE", cls().cors_max_age)),
+            log_level=os.getenv("LOG_LEVEL", cls().log_level).upper(),
+            log_dir=os.getenv("LOG_DIR", cls().log_dir),
             metrics_enabled=as_bool("METRICS_ENABLED", cls().metrics_enabled),
             metrics_endpoint=os.getenv("METRICS_ENDPOINT", cls().metrics_endpoint),
             db_enabled=as_bool("DB_ENABLED", cls().db_enabled),
             db_url=os.getenv("DATABASE_URL", cls().db_url),
             db_echo=as_bool("DB_ECHO", cls().db_echo),
+            db_logging_enabled=as_bool("DB_LOGGING_ENABLED", cls().db_logging_enabled),
+            db_logging_level=os.getenv("DB_LOGGING_LEVEL", cls().db_logging_level),
+            logs_table_name=os.getenv("LOGS_TABLE_NAME", cls().logs_table_name),
             cache_enabled=as_bool("CACHE_ENABLED", cls().cache_enabled),
             cache_url=os.getenv("CACHE_URL", cls().cache_url),
             tracing_enabled=as_bool("TRACING_ENABLED", cls().tracing_enabled),

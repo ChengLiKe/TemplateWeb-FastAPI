@@ -14,19 +14,22 @@ import time
 from pathlib import Path
 from logging.handlers import RotatingFileHandler
 from sqlalchemy import text
+from app.config.settings import Settings
 
-# Level configuration via env: LOG_LEVEL=DEBUG|INFO|WARNING|ERROR|CRITICAL
-LOG_LEVEL_NAME = os.getenv("LOG_LEVEL", "DEBUG").upper()
+settings = Settings.load()
+
+# Level configuration via settings
+LOG_LEVEL_NAME = settings.log_level.upper()
 LOGGER_LEVEL = getattr(logging, LOG_LEVEL_NAME, logging.DEBUG)
 
-# Log directory via env: LOG_DIR=./logs
-LOG_DIR = Path(os.getenv("LOG_DIR", "logs"))
+# Log directory via settings
+LOG_DIR = Path(settings.log_dir)
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 LOG_FILE = LOG_DIR / "app.log"
 
-# Database logging configuration
-DB_LOGGING_ENABLED = os.getenv("DB_LOGGING_ENABLED", "false").lower() == "true"  # 默认为false，避免初始化问题
-DB_LOGGING_LEVEL = getattr(logging, os.getenv("DB_LOGGING_LEVEL", "INFO").upper(), logging.INFO)
+# Database logging configuration - 使用settings对象中的配置
+DB_LOGGING_ENABLED = settings.db_logging_enabled  # 从settings中获取是否启用数据库日志
+DB_LOGGING_LEVEL = getattr(logging, settings.db_logging_level.upper(), logging.INFO)  # 从settings中获取数据库日志级别
 
 # ANSI escape sequences
 RESET = "\x1b[0m"
@@ -100,7 +103,7 @@ class DatabaseHandler(logging.Handler):
                     with engine.connect() as conn:
                         try:
                             conn.execute(text("""
-                                CREATE TABLE IF NOT EXISTS logs (
+                                CREATE TABLE IF NOT EXISTS "+settings.logs_table_name+" (
                                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                                     timestamp TEXT,
                                     level TEXT,
@@ -152,7 +155,7 @@ class DatabaseHandler(logging.Handler):
                 
                 # 构建更简洁的插入语句
                 insert_sql = """
-                    INSERT INTO logs (timestamp, level, logger, module, line, message, component, trace_id)
+                    INSERT INTO "+settings.logs_table_name+" (timestamp, level, logger, module, line, message, component, trace_id)
                     VALUES ('{}', '{}', '{}', '{}', {}, '{}', {}, {})
                 """.format(timestamp, level, logger_name, module, line, message, component_str, trace_id_str)
                 

@@ -52,10 +52,24 @@ def middlewares(app: FastAPI) -> None:
 
 # -------------------- CORS --------------------
 def _add_cors(app: FastAPI) -> None:
-    # 获取CORS_ORIGINS环境变量，如果没有设置，则默认为"*"
-    origins_raw = os.getenv("CORS_ORIGINS", "*")
-    # 将origins_raw按逗号分隔，并去除空格，得到origins列表
-    origins = [o.strip() for o in origins_raw.split(",")]
+    # 从应用状态获取配置
+    settings = getattr(app.state, "settings", None)
+    if not settings:
+        # 如果没有配置，使用默认值
+        origins = ["*"]
+        max_age = 600
+    else:
+        # 确保正确处理origins_raw
+        if isinstance(settings.cors_origins, str):
+            # 如果是字符串，按逗号分隔并去除空格
+            origins = [o.strip() for o in settings.cors_origins.split(",")]
+        elif isinstance(settings.cors_origins, list):
+            # 如果已经是列表，直接使用
+            origins = settings.cors_origins
+        else:
+            # 其他情况使用默认值
+            origins = ["*"]
+        max_age = settings.cors_max_age
 
     # 添加CORS中间件
     app.add_middleware(
@@ -69,7 +83,7 @@ def _add_cors(app: FastAPI) -> None:
         # 允许的请求头
         allow_headers=["*"],
         # 预检请求的缓存时间
-        max_age=int(os.getenv("CORS_MAX_AGE", "600")),
+        max_age=max_age,
     )
 
 
